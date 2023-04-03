@@ -64,3 +64,4 @@ python main.py --dataset online_products --kernels 2 --source $datapath --n_epoc
 --group CUB_CPF --seed 60 --gpu 0 --bs 90 --samples_per_class 2 --loss cpf --arch resnet34_frozen_normalize 
 --loss_cpf_tau 0.38 --loss_cpf_sp 3.0 --loss_cpf_sn 8.0 --loss_cpf_mu 1.0 --fc_lr 0.02 --lr 0.00005
 
+ 
