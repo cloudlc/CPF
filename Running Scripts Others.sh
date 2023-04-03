@@ -14,7 +14,7 @@ python main.py --kernels 2 --source $datapath --n_epochs 100 --log_online --proj
 python main.py --kernels 2 --source $datapath --n_epochs 100 --log_online --project RevisitDML --group CUB_MS --seed 0 --gpu 0 --bs 112 --samples_per_class 2 --loss multisimilarity --arch resnet34_frozen_normalize
 
 
-
+ 
 """============= Baseline Runs --- CARS196 ===================="""
 python main.py --dataset cars196 --kernels 2 --source $datapath --n_epochs 100 --log_online --project RevisitDML --group CUB_ProxyNCA --seed 0 --gpu 0 --bs 112 --samples_per_class 2 --loss proxynca --arch resnet34_frozen_normalize
 
